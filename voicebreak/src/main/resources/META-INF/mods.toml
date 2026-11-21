@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="voicebreak"
+version="1.0.0"
+displayName="Voice Break"
+description='''
+Чтобы сломать блок или ударить моба, нужно повторить его звук голосом в микрофон.
+'''
+
+[[dependencies.voicebreak]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.voicebreak]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
